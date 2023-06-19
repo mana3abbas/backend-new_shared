@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: {{ .Chart.Name }}-server
-        image: monasamir/server:v14
+        image: monasamir/server:m${BUILD_NUMBER} 
         ports:
         - containerPort: 4000
         env:
