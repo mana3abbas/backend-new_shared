@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: {{ .Chart.Name }}-client
-        image: monasamir/client:v${BUILD_NUMBER} 
+        image: monasamir/client:s${BUILD_NUMBER} 
         ports:
         - containerPort: 3000 
